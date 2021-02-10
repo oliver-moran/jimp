@@ -236,6 +236,7 @@ main();
 Applies a convolution kernel to the image or a region
 
 - @param {array} kernel the convolution kernel
+- @param {number} divisor (optional) the final divisor to be applied to each value
 - @param {number} x (optional) the x position of the region to apply convolution to
 - @param {number} y (optional) the y position of the region to apply convolution to
 - @param {number} w (optional) the width of the region to apply convolution to
